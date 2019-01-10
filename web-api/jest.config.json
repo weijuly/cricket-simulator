@@ -1,0 +1,11 @@
+{
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+        "src/**/*.js",
+        "src/**/*.jsx",
+        "!src/client/index.jsx",
+        "!src/client/registerServiceWorker.js",
+        "!src/client/common/error.js"
+    ],
+    "verbose": true
+}
